@@ -15,13 +15,14 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 
 ## Arquivos .ipynb
 <p align="justify">
-:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb"> Experimento A.01 </a> - busca aleatoria.ipynb - Neste arquivo, abordamos o problema das caixas binárias, uma situação-problema em que temos quatro genes para a formação de um indivíduo e deveiamos utilizar de uma função para somar os genes e identifcar qual o maior valor, no caso, o valor ideal seria 1111 - visto que estamos trabalhando com situações binárias, logo, os números só podem ser 0 ou 1. </p>
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb"> Experimento A.01 </a> - busca aleatoria.ipynb - Neste arquivo, abordamos o problema das caixas binárias, uma situação-problema em que temos um certo número de caixas e cada uma pode conter um valor do conjunto $\{0, 1\}$. O objetivo é encontrar uma combinação de caixas onde a soma dos valores contidos dentro delas é máximo para isso utiliza-se de algoritmos de busca aleatória. </p>
 
 <p align="justify">
-:x: Experimento A.02 -  </p>
+:white_check_mark: Experimento A.02 - busca em grade.ipynb - Nesta arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se do algoritmo de busca em grade para a resolução desta situação-problema considerando 4 caixas. </p>
+</p>
 
 <p align="justify">
-:x: Experimento A.03 - </p>
+:white_check_mark: Experimento A.03 - algoritmos genéticos.ipynb - Neste arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se dos algoritmos genéticos para a resolução desta situação-problema considerando 4 caixas. Os algoritmos genéticos são ferramentas baseadas em conceitos de genética, responsáveis por otimização de códigos e solução de problemas complexos.  </p>
 
 <p align="justify">
 :x: Experimento A.04 - </p>
