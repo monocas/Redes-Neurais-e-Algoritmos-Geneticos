@@ -19,6 +19,9 @@ O presente projeto busca apresentar um guia básico de aprendizado de ferramenta
 
 <p align="justify"> O presente repositório foi elaborado pela discente, Monyque Karoline de Paula Silva <a href="https://github.com/monocas"> (@monocas)</a>,  durante o terceiro semestre de graduação da Ilum - Escola de Ciência, para a disciplina de Redes Neurais e Algortítimos Genéticos. </p>
 
+## Ferramentas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="40" height="40"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="40" height="40"/> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40"/>
+
 <details><summary><h3><b>Como se guiar no nosso GitHub?</h3></b></summary>
 <p align="justify">
  É bem simples! Existem duas grandes divisões no GitHub, os arquivos do tipo <i>.ipynb</i> e os do tipo <i>.py</i>, os do formato <i>.ipynb</i> se encontram divididos em dois grandes segmentos que possuem sua própria pasta com todos os arquivos utilizados que descrevem os códigos realizados ao decorrer da disciplina ministrada, os quais são: </p>
