@@ -1,28 +1,127 @@
-from random import choice
+import random
 
 def gene_cb():
-    """Gera um gene valido para um indivíduo
-    Return: 
-        Um valor entre 0 ou 1."""
-    genes = [0,1]
-    gene = choice(genes)
-    return(gene)
+    '''Gera um gene válido para o problema das caixas binárias.
     
-def indivíduo_cb(n):
-    """Gera um indivíduo para o problema das caixas binarias.
+    Return:
+        Um valor zero ou um.
+    '''
+    #lista = [0, 1]
+    #gene = random.choice(lista)
+    #return gene
+    
+    return random.choice([0, 1])
+
+
+def individuo_cb(n):
+    '''Gera um individuo para o problema das caixas binárias.
     
     Args:
         n: número de genes do indivíduo.
+    
     Return:
         Uma lista com n genes. Cada gene é um valor zero ou um.
-        """
-    indivíduo = [gene_cb() for i in range(n)]
-    return indivíduo
+    '''
+    #individuo = []
+    #for i in range(n):
+    #    gene = gene_cb()
+    #    individuo.append(gene)
+    #return gene
 
-def função_objetivo_cb(indivíduo):
-    """Computa a função objetivo para um indivíduo
+    return [gene_cb() for i in range(n)]
+
+
+def populacao_cb(tamanho, n):
+    '''Cria uma população no problema das caixas binárias.
+    
     Args:
-        Indivíduo: lista contendo todos os genes das caixas binarias.
+        tamanho: tamanho da população;
+        n: número de genes de um individuo.
+    
+    Returns:
+        Uma lista onde cada item é um individuo. Um individuo é uma lista com n genes.
+    '''
+    populacao = []
+    for _ in range(tamanho):
+        populacao.append(individuo_cb(n))
+    return populacao
+
+
+def selecao_roleta_max(populacao, fitness):
+    '''Seleciona individuos de uma população usando o método da roleta.
+    
+    Nota: apenas funciona para problemas de maximização.
+    
+    Args:
+        populacao: lista com todos os individuos da população;
+        fitness: lista com o valor da função objetivo dos individuos da população.
+    
+    Returns:
+        População dos individuos selecionados.
+    '''
+    populacao_selecionada = random.choices(populacao, weights=fitness, k=len(populacao))
+    return populacao_selecionada
+
+
+def cruzamento_ponto_simples(pai, mae):
+    ''' Operador de cruzamento de ponto simples.
+    
+    Args:
+        Pai: uma lista representando um individuo.
+        Mãe: uma lista representando um individuo.
+    Returns:
+        Duas listas, sendo que cada uma representa um filho dos pais que foram os argumentos
+    '''
+    ponto_de_corte= random.randint(1, len(pai) - 1)
+    
+    filho1 = pai[:ponto_de_corte] + mae[ponto_de_corte:]
+    filho2 = mae[:ponto_de_corte] + pai[ponto_de_corte:]
+    
+    return filho1, filho2
+
+
+def mutacao_cb(individuo):
+    ''' Realiza a mutação em um gene no problema das caixas binárias.
+    
+    Args:
+        individuo: uma lista representado um individuo no problema das caixas binárias.
+        
     Return:
-        Um valor representando a soma dos genes do indivíduo."""
-    return sum(indivíduo)
+        Um individuo com um gene mutado.
+    '''
+    gene_a_ser_mutado = random.randint(0, len(individuo) - 1)
+    individuo[gene_a_ser_mutado] = gene_cb()
+    
+    return individuo
+
+
+def funcao_objetivo_cb(individuo):
+    '''Computa a função objetivo no problema das caixas binárias.
+    
+    Args:
+        individuo: lista contendo os genes das caixas binárias.
+    
+    Return:
+        Um valor representando a soma dos genes do individuo.
+    '''
+    return sum(individuo) + 1
+
+
+def funcao_objetivo_pop_cb(populacao):
+    '''Calcula a função objetivo para todos os membros de uma população.
+    
+    Args:
+        populacao: lista com todos os individuos da população.
+    
+    Returns:
+        Lista de valores representando a fitness de cada individuo da população.
+    '''
+    fitness = []
+    for individuo in populacao:
+        fobj = funcao_objetivo_cb(individuo)
+        fitness.append(fobj)
+    
+    return fitness
+    
+
+
