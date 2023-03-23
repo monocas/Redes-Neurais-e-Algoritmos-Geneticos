@@ -22,7 +22,7 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 </p>
 
 <p align="justify">
-:white_check_mark: Experimento A.03 - algoritmos genéticos.ipynb - Neste arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se dos algoritmos genéticos para a resolução desta situação-problema considerando 4 caixas. Os algoritmos genéticos são ferramentas baseadas em conceitos de genética, responsáveis por otimização de códigos e solução de problemas complexos.  </p>
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.03%20-%20algoritmo%20genetico.ipynb"> Experimento A.03 </a> - algoritmos genéticos.ipynb - Neste arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se dos algoritmos genéticos para a resolução desta situação-problema considerando 4 caixas. Os algoritmos genéticos são ferramentas baseadas em conceitos de genética, responsáveis por otimização de códigos e solução de problemas complexos.  </p>
 
 <p align="justify">
 :x: Experimento A.04 - </p>
