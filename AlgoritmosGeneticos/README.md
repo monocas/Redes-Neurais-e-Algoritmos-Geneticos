@@ -25,7 +25,7 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.03%20-%20algoritmo%20genetico.ipynb"> Experimento A.03 </a> - algoritmos genéticos.ipynb - Neste arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se dos algoritmos genéticos para a resolução desta situação-problema considerando 4 caixas. Os algoritmos genéticos são ferramentas baseadas em conceitos de genética, responsáveis por otimização de códigos e solução de problemas complexos.  </p>
 
 <p align="justify">
-:x: Experimento A.04 - caixas não binárias.ipynb - Neste arquivo, abordamos uma nova situação-problema: o problema das caixas não-binárias. Ele é similar aos conceitos vistos anteriormente e sua premissa é bem simples, temos um certo número de caixas e cada uma pode conter um número inteiro. O objetivo é encontrar uma combinação de caixas onde a soma dos valores contidos dentro delas é máximo.
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.04%20-%20caixas%20nao-binarias.ipynb"> Experimento A.04 </a>- caixas não binárias.ipynb - Neste arquivo, abordamos uma nova situação-problema: o problema das caixas não-binárias. Ele é similar aos conceitos vistos anteriormente e sua premissa é bem simples, temos um certo número de caixas e cada uma pode conter um número inteiro. O objetivo é encontrar uma combinação de caixas onde a soma dos valores contidos dentro delas é máximo.
 </p>
 
 <p align="justify">
