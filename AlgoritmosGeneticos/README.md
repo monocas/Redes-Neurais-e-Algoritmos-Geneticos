@@ -18,7 +18,7 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb"> Experimento A.01 </a> - busca aleatoria.ipynb - Neste arquivo, abordamos o problema das caixas binárias, uma situação-problema em que temos um certo número de caixas e cada uma pode conter um valor do conjunto $\{0, 1\}$. O objetivo é encontrar uma combinação de caixas onde a soma dos valores contidos dentro delas é máximo para isso utiliza-se de algoritmos de busca aleatória. </p>
 
 <p align="justify">
-:white_check_mark: Experimento A.02 - busca em grade.ipynb - Nesta arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se do algoritmo de busca em grade para a resolução desta situação-problema considerando 4 caixas. </p>
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.02%20-%20busca%20em%20grade.ipynb"> Experimento A.02 </a> - busca em grade.ipynb - Nesta arquivo, também aborda-se o problema das caixas binárias, contudo, utiliza-se do algoritmo de busca em grade para a resolução desta situação-problema considerando 4 caixas. </p>
 </p>
 
 <p align="justify">
