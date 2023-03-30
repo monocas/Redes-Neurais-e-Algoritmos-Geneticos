@@ -29,7 +29,7 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 </p>
 
 <p align="justify">
-:white_check_mark: < a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb"> Experimento A.05 </a> - descobrindo a senha.ipynb - Neste arquivo, aborda-se um novo problema: a função objetivo deve saber a senha correta e quantificar de alguma maneira o quão perto ou longe os palpites estão da solução (veja que isso é algo que não temos no mundo real. Nenhum site irá te dizer se você está acertando ou errando seu palpite). O critério de parada deste problema é quando a senha for descoberta.
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb"> Experimento A.05 </a> - descobrindo a senha.ipynb - Neste arquivo, aborda-se um novo problema: a função objetivo deve saber a senha correta e quantificar de alguma maneira o quão perto ou longe os palpites estão da solução (veja que isso é algo que não temos no mundo real. Nenhum site irá te dizer se você está acertando ou errando seu palpite). O critério de parada deste problema é quando a senha for descoberta.
 </p>
 
 <p align="justify">
