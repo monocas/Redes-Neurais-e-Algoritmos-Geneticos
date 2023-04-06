@@ -33,7 +33,11 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 </p>
 
 <p align="justify">
-:x: Experimento A.06 - </p>
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20GA.05%20-%20palindromos.ipynb"> Experimento G.05 </a> - palindromos.ipynb - Neste arquivo, temos como objetivo: encontrar pelo menos 10 palíndromos de 5 letras. Estes palíndromos devem ter pelo menos uma vogal. Não é necessário que eles formem palavras válidas em português ou qualquer outro idioma.
+</p>
+
+<p align="justify">
+:x:  <a href="AAA LINK AQUI" Experimento A.06 - </a> - o caixeiro viajante.ipynb - Neste arquivo, aborda-se um novo problema: descobrir a rota de menor distância entre $n$ pontos no plano cartesiano (ou seja, $n$ pontos com coordenadas $(x,y)$). A rota pode se iniciar em qualquer um dos pontos disponíveis e deve terminar no ponto inicial, visitando todos os demais pontos apenas uma vez. Considere que a rota entre um ponto e outro é a linha reta que liga os dois pontos.
 
 <p align="justify">
 :x: Experimento A.07 - </p>
