@@ -150,7 +150,9 @@ def individuo_cv(cidades):
       Retorna uma lista de nomes de cidades formando um caminho onde visitamos
       cada cidade apenas uma vez.
     """
-    pass
+    nomes = list(cidades.keys())
+    random.shuffle(nomes)
+    return nomes
 
 
 #################################################################
@@ -225,6 +227,7 @@ def populacao_inicial_cv(tamanho, cidades):
     for _ in range(tamanho):
         populacao.append(individuo_cv(cidades))
     return populacao
+
 #################################################################
 #                                                               # 
 #                       SELEÇÃO_ROLETA                          #
@@ -321,8 +324,21 @@ def cruzamento_ordenado(pai, mae):
       argumentos. Estas listas mantém os genes originais dos pais, porém altera
       a ordem deles
     """
-    pass
-
+    corte1 = random.randint(0, len(pai) - 2)
+    corte2 = random.randint(corte1 + 1, len(pai) - 1)
+    
+    filho1 = pai[corte1:corte2]
+    for gene in mae:
+        if gene not in filho1:
+            filho1.append(gene)
+            
+    filho2 = mae[corte1:corte2]
+    for gene in pai:
+        if gene not in filho2:
+            filho2.append(gene)
+            
+    return filho1, filho2
+                
 #################################################################
 #                                                               # 
 #                           MUTAÇÃO                             #
@@ -378,7 +394,14 @@ def mutacao_de_troca(individuo):
       O indivíduo recebido como argumento, porém com dois dos seus genes
       trocados de posição.
     """
-    pass
+    indices = list(range(len(individuo)))
+    lista_sorteada = random.sample(indices, k = 2)
+    indice1 = lista_sorteada[0]
+    indice2 = lista_sorteada[1]
+    
+    individuo[indice1],individuo[indice2]  = individuo[indice2], individuo[indice1]
+    
+    return individuo  
 
 #################################################################
 #                                                               # 
@@ -426,7 +449,6 @@ def funcao_objetivo_senha(individuo, senha_verdadeira):
 
     return diferenca
     
-    
 
 # NOVIDADE
 def funcao_objetivo_cv(individuo, cidades):
@@ -445,9 +467,22 @@ def funcao_objetivo_cv(individuo, cidades):
 
     distancia = 0
 
-    # preencher o código
+    for posicao in range(len(individuo) - 1):
+        
+        partida = cidades[individuo[posicao]]
+        chegada = cidades[individuo[posicao + 1]]
+        
+        percurso = distancia_entre_dois_pontos(partida, chegada)
+        distancia = distancia + percurso        
+               
+    # Calculando o caminho de volta para a cidade inicial
+    partida = cidades[individuo[-1]]
+    chegada = cidades[individuo[0]]
 
-    return 
+    percurso = distancia_entre_dois_pontos(partida, chegada)
+    distancia = distancia + percurso
+    
+    return distancia
 
 #################################################################
 #                                                               # 
@@ -519,6 +554,25 @@ def funcao_objetivo_pop_senha(populacao, senha_verdadeira):
 
     return resultado
 
+# NOVIDADE
+def funcao_objetivo_pop_cv(populacao, cidades):
+    """Computa a funcao objetivo de uma população no problema do caixeiro viajante.
+    Args:
+      populacao:
+        Lista com todos os inviduos da população
+      cidades:
+        Dicionário onde as chaves são os nomes das cidades e os valores são as
+        coordenadas das cidades.
+    Returns:
+      Lista contendo a distância percorrida pelo caixeiro para todos os
+      indivíduos da população.
+    """
+
+    resultado = []
+    for individuo in populacao:
+        resultado.append(funcao_objetivo_cv(individuo, cidades))
+    return resultado
+
 
 ############################################################
 ###                                                        #
@@ -526,65 +580,65 @@ def funcao_objetivo_pop_senha(populacao, senha_verdadeira):
 ###                                                        #
 ############################################################
 
-def gene_palindromo(letras):
-    """Sorteia uma letra.
+def gene_palindromo(letrinhas):
+    '''Gera um gene válido(letra) para o problema dos palindromos.
     Args:
-      letras: letras possíveis de serem sorteadas.
+      letrinha: Os possíveis genes(letras) a serem sorteadas.
     Return:
-      Retorna uma letra dentro das possíveis de serem sorteadas.
-    """
-    letra = random.choice(letras)
-    return letra
+       A letrinha dentro das possibilidades de sorteio. 
+    '''
+    letrinha = random.choice(letrinhas)
+    return letrinha
 
-def individuo_palindromo(tamanho_palindromo, letras):
-    """Cria um candidato para o problema da senha
+def individuo_palindromo(tamanho_palindromo, letrinhas):
+    ''' Cria um candidato para o problema do palindromo.
     Args:
-      tamanho_senha: inteiro representando o tamanho da senha.
-      letras: letras possíveis de serem sorteadas.
+      tamanho_palindromo: inteiro representando o tamanho do palindromo.
+      letrinha: letrinhas possíveis de serem sorteadas.
     Return:
-      Lista com n letras
-    """
+      Lista com n letrinhas.
+    '''
 
     candidato = []
 
     for n in range(tamanho_palindromo):
-        candidato.append(gene_palindromo(letras))
+        candidato.append(gene_palindromo(letrinhas))
 
     return candidato
 
-def populacao_inicial_palindromo(tamanho, tamanho_palindromo, letras):
-    """Cria população inicial no problema da senha
+def populacao_inicial_palindromo(tamanho, tamanho_palindromo, letrinhas):
+    '''Cria população inicial no problema do palindromo.
     Args
       tamanho: tamanho da população.
-      tamanho_senha: inteiro representando o tamanho da senha.
+      tamanho_palindromo: inteiro representando o tamanho do palindromo.
       letras: letras possíveis de serem sorteadas.
     Returns:
-      Lista com todos os indivíduos da população no problema da senha.
-    """
+      Lista com todos os indivíduos da população no problema do palindromo.
+    '''
     populacao = []
     for n in range(tamanho):
         populacao.append(individuo_palindromo(tamanho_palindromo, letras))
     return populacao
 
-def mutacao_palindromo(individuo, letras):
-    """Realiza a mutação de um gene no problema da senha.
+def mutacao_palindromo(individuo, letrinhas):
+    """Realiza a mutação de um gene no problema dos palindromos.
     Args:
-      individuo: uma lista representado um individuo no problema da senha
+      individuo: uma lista representado um individuo no problema dos palindromos
       letras: letras possíveis de serem sorteadas.
     Return:
       Um individuo (senha) com um gene mutado.
     """
     gene = random.randint(0, len(individuo) - 1)
-    individuo[gene] = gene_palindromo(letras)
+    individuo[gene] = gene_palindromo(letrinhas)
     return individuo
 
 def funcao_objetivo_palindromo(individuo):
-    """Computa a funcao objetivo de um individuo no problema da senha
+    """Computa a funcao objetivo de um individuo no problema dos palindromos.
     Args:
-      individiuo: lista contendo as letras da senha
+      individiuo: lista contendo as letras do palindromo.
       senha_verdadeira: a senha que você está tentando descobrir
     Returns:
-      A "distância" entre a senha proposta e a senha verdadeira. Essa distância
+      A "distância" entre a as palavras de forma a observar se há a formação de um palindromo. Essa distância
       é medida letra por letra. Quanto mais distante uma letra for da que
       deveria ser, maior é essa distância.
     """
@@ -595,13 +649,14 @@ def funcao_objetivo_palindromo(individuo):
 
     return diferenca
 
+
 def funcao_objetivo_pop_palindromo(populacao):
-    """Computa a funcao objetivo de uma populaçao no problema da senha.
+    """Computa a funcao objetivo de uma populaçao no problema dos palindromos.
     Args:
-      populacao: lista com todos os individuos da população
-      senha_verdadeira: a senha que você está tentando descobrir
+      populacao: lista com todos os individuos da população.
+      palindromo: o palindromo que estamos tentando descobrir.
     Returns:
-      Lista contendo os valores da métrica de distância entre senhas.
+      Lista contendo os valores da métrica de distância entre as vogais.
     """
     resultado = []
 
