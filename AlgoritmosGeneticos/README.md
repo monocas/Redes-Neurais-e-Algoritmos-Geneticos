@@ -43,6 +43,11 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20A.07%20-%20aplicando%20restricoes.ipynb">  Experimento A.07  </a> - aplicando restricoes.ipynb - No problema da mochila você tem um número $n$ de itens disponíveis, cada um com um peso e um valor associado. Sua mochila tem a capacidade de carregar um número $p$ de quilogramas, sendo que mais que isso faz com que sua mochila rasgue e todos os itens dentro dela caiam no chão e se quebrem de maneira catastrófica (indesejado). Sua tarefa é encontrar um conjunto de itens (considerando os $n$ disponíveis) que maximize o valor contido dentro da mochila, porém que tenham um peso dentro da capacidade da mesma.
 </p>
 
+<p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20GA.05%20-%20palindromos.ipynb
+">  Experimento 6.05 </a> - palindromos.ipynb - Neste experimento temos como objetivo encontrar pelo menos 10 palíndromos de 5 letras. Estes palíndromos devem ter pelo menos uma vogal. Não é necessário que eles formem palavras válidas em português ou qualquer outro idioma.
+
+</p>
 
 ## Arquivos .py
 <p align="justify">
