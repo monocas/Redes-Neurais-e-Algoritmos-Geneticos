@@ -45,7 +45,7 @@ Nesta seção, iremos discorrer a respeito das atividades desenvolvidas e funç�
 
 <p align="justify">
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20GA.05%20-%20palindromos.ipynb
-">  Experimento 6.05 </a> - palindromos.ipynb - Neste experimento temos como objetivo encontrar pelo menos 10 palíndromos de 5 letras. Estes palíndromos devem ter pelo menos uma vogal. Não é necessário que eles formem palavras válidas em português ou qualquer outro idioma.
+">  Experimento G.05 </a> - palindromos.ipynb - Neste experimento temos como objetivo encontrar pelo menos 10 palíndromos de 5 letras. Estes palíndromos devem ter pelo menos uma vogal. Não é necessário que eles formem palavras válidas em português ou qualquer outro idioma.
 
 </p>
 
