@@ -314,6 +314,32 @@ def selecao_torneio_min(populacao, fitness, tamanho_torneio=3):
 
     return selecionados
 
+def selecao_torneio_max(populacao, fitness, tamanho_torneio=3):
+    """Faz a seleção de uma população usando torneio.
+    Nota: da forma que está implementada, só funciona em problemas de
+    maximização.
+    Args:
+      populacao: população do problema
+      fitness: lista com os valores de fitness dos indivíduos
+      tamanho_torneio: quantidade de invidiuos que batalham entre si
+    Returns:
+      Individuos selecionados. Lista com os individuos selecionados com mesmo
+      tamanho do argumento `populacao`.
+    """
+    selecionados = []
+    par_populacao_fitness = list(zip(populacao, fitness))
+    for _ in range(len(populacao)):
+        combatentes = random.sample(par_populacao_fitness, tamanho_torneio)
+        maximo_fitness = -float("inf")
+        for par_individuo_fitness in combatentes:
+            individuo = par_individuo_fitness[0]
+            fit = par_individuo_fitness[1]
+            if fit > maximo_fitness:
+                selecionado = individuo
+                maximo_fitness = fit
+        selecionados.append(selecionado)
+    return selecionados
+
 
 #################################################################
 #                                                               # 
@@ -699,7 +725,7 @@ def populacao_inicial_palindromo(tamanho, tamanho_palindromo, letrinhas):
     '''
     populacao = []
     for n in range(tamanho):
-        populacao.append(individuo_palindromo(tamanho_palindromo, letras))
+        populacao.append(individuo_palindromo(tamanho_palindromo, letra))
     return populacao
 
 def mutacao_palindromo(individuo, letrinhas):
