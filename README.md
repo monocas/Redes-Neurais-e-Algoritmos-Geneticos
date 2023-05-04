@@ -11,7 +11,7 @@
 <p align="justify">
 Redes neurais e algortímos genéticos são conceitos muito citados ao longo dos últimos anos, principalmente se você está interado na área de computação e biologia. Mas afinal, o que são estes? Algorítmos genéticos são baseados em conceitos de evolução da natureza e desenvolvem soluções de alta-qualidade para vários problemas na área de biologia que envolvem pesquisa, otimização e aprendizado, ademais, ele é muito utilizado em problemas com um grande número de parâmetros e representações matemáticas complexas, por sua vez, Redes Neurais são sistemas paralelos distribuídos, constituídos por nós de processamento simples que modelam um neurônio biológico, o neurônio artificial, capazes de aplicar funções matemáticas simples a dados recebidos em sua entrada.  A união destas ideias promove uma rede complexa de programação que soluciona problemas biológicos de modo automatizado e com alta performace. </p>
 <p align="justify">
-Ficou curioso? Quer aprender um pouco sobre estas ferramentas! Acompanhe o nosso repositório :ok_woman: </p>
+Ficou curioso? Quer aprender um pouco sobre estas ferramentas? Acompanhe o nosso repositório :ok_woman: </p>
 
 ## Descrição do Projeto
 <p align="justify">
