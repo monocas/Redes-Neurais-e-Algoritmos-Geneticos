@@ -60,10 +60,14 @@ Esses operadores são responsáveis por selecionarmos os melhores individuos dev
 </p>
 
 <p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20GA.03%20-%20caixeiro%20com%20gasolina%20infinita.ipynb">  Experimento G.03 </a> - caixeiro viajante com gasolina infinita.ipynb - Neste arquivo, aborda-se um novo problema: descobrir a rota de maior distância entre $n$ pontos no plano cartesiano (ou seja, $n$ pontos com coordenadas $(x,y)$). A rota pode se iniciar em qualquer um dos pontos disponíveis e deve terminar no ponto inicial, visitando todos os demais pontos apenas uma vez. Considere que a rota entre um ponto e outro é a linha reta que liga os dois pontos. É um problema similar ao abordado no A.06, só que nesse caso, o nosso caixeiro não tem responsabilidade social, logo, temos que realizar a maximização do código. 
+
+
+<p align="justify">
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/AlgoritmosGeneticos/experimento%20GA.05%20-%20palindromos.ipynb
 ">  Experimento G.05 </a> - palindromos.ipynb - Neste experimento temos como objetivo encontrar pelo menos 10 palíndromos de 5 letras. Estes palíndromos devem ter pelo menos uma vogal. Não é necessário que eles formem palavras válidas em português ou qualquer outro idioma.
-
 </p>
+
 
 ## Arquivos .py
 <p align="justify">
