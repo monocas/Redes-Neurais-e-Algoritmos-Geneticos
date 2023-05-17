@@ -44,6 +44,14 @@ Figura 1. Estrutura de camadas das Redes Neurais.
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.03 </a> - construindo um grafo automaticamente.ipynb - Neste arquivo, abordamos a construção de grafos por meio de classes que geram automaticamente o grafo computacional. </p>
 
 
+
+
+
+<h4 align="center"> 
+	🚧  Atualizando...Redes Neurais 🚀 Git em construção...  🚧
+</h4>
+
+
 ## Arquivos .py
 <p align="justify">
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/constantes.py">  constantes.py </a> - Neste arquivo estão alocadas todas as constantes utilizadas nos códigos fonte para a resolução dos exercícios. É um ambiente destinado para guardar e armazenar as constantes de modo a otimizar o código. </p>
@@ -53,4 +61,5 @@ Figura 1. Estrutura de camadas das Redes Neurais.
 
 <p align="justify">
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/funcoes.py"> funcoes.py </a> - Neste arquivo estão alocadas todas as funções desenvolvidas e utilizadas nos códigos fonte para a resolução dos exercícios. É um ambiente destinado para as funções e suas implementações. </p>
+
 
