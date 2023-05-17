@@ -1,11 +1,10 @@
 <h2 align="center"> REDES NEURAIS E ALGORITMOS GENÉTICOS (RNAG): </h2>
 <h3 align="center"> UM GUIA BÁSICO PARA O APRENDIZADO DE INTELIGÊNCIA ARTIFICIAL E RECOMBINAÇÃO GENÉTICA </h3>
 
-<p align="center"> Monyque Karoline de Paula Silva </p>
+<p align="center"><img src="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/assets/106678040/f3f9a3d9-b167-401f-ba25-899fb7700f17"></p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/106678040/224770751-a0023d85-5aee-46cd-906a-faf26adfdca2.png"></p>
+<h3 align='center'> <i> Você já pensou sobre como a biologia e a computação podem formar algoritmos poderosos de otimização e resolução de problemas complexos? </i> </h3>
 
-<p align=""> Fonte: Didática Tech (2022). </p>
 
 ## Resumo
 <p align="justify">
@@ -19,9 +18,6 @@ O presente projeto busca apresentar um guia básico de aprendizado de ferramenta
 
 <p align="justify"> O presente repositório foi elaborado pela discente, Monyque Karoline de Paula Silva <a href="https://github.com/monocas"> (@monocas)</a>,  durante o terceiro semestre de graduação da Ilum - Escola de Ciência, para a disciplina de Redes Neurais e Algortítimos Genéticos. </p>
 
-## Ferramentas
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="40" height="40"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="40" height="40"/> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40"/>
-
 <details><summary><h3><b>Como se guiar no nosso GitHub?</h3></b></summary>
 <p align="justify">
  É bem simples! Existem duas grandes divisões no GitHub, os arquivos do tipo <i>.ipynb</i> e os do tipo <i>.py</i>, os do formato <i>.ipynb</i> se encontram divididos em dois grandes segmentos que possuem sua própria pasta com todos os arquivos utilizados que descrevem os códigos realizados ao decorrer da disciplina ministrada, os quais são: </p>
@@ -33,3 +29,17 @@ O presente projeto busca apresentar um guia básico de aprendizado de ferramenta
 <p align="justify">
 Por sua vez, os arquivos do tipo <i>.py</i> são os responsáveis por armazenar informações, classes e funções utilizados em todo o projeto de aprendizado de redes neurais. 
 </p>
+
+</details>
+
+## Ferramentas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="40" height="40"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="40" height="40"/> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40"/>
+
+
+## Autores
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/monocas"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106678040?v=4" width="100px;" alt=""/><br /><sub><b>Monyque Silva</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/drcassar"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/9871905?v=4" width="100px;" alt=""/><br /><sub><b> Daniel Cassar</b></sub></a><br/></td>
+  </tr>
+</table>
