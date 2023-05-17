@@ -6,9 +6,19 @@
 
 <h3 align="justify">  O QUE SÃO REDES NEURAIS? </h3>
 
-<p align="justify">  Redes neurais são algoritmos que se baseiam em um processamento de dados similar ao processamento de informações de um cérebro humano, isto é, as redes neurais são similares a um neurônio real. A estrutura é baseada em um sistema de input - valor de entrada; camada escondida - neurônio soma os valores de entrada recebidos e incrementa um viés; e output - valor de saída das operações.  </p>
+<p align="justify">  Redes neurais são algoritmos que se baseiam em um processamento de dados similar ao processamento de informações de um cérebro humano que ocorrem por meio de um conjunto extremamente complexo de células, os neurônios, responsáveis pela tomada de decisão do raciocínio e corpo humanos. Os neurônios são formados por dendritos – conjuntos de terminais de entrada, pelo corpo central, e pelos axônios – terminais de saídas. </p>
+<p align="justify">  A comunicação dos neurônios ocorrem por meia da sinapse – região onde dois neurônios entram em contato e transmitem impulsos nervosos. Estabelecido o funcionamento biológico, observa-se que o comportamento das redes neurais é similar ao de um neurônio visto que a estrutura computacional é baseada em um sistema três camdas, sendo um de input - valor de entrada; a camada escondida - neurônio soma os valores de entrada recebidos e incrementa um viés; e por fim, o output - valor de saída das operações. Na Figura 1, há a exemplificação estrutural de uma rede neural. </p>
+ 
+<p align="justify"><img src="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/assets/106678040/4bfe07bf-4ac7-4d40-9bee-f07274d90472" width="500" height="300" > </p>
+Figura 1. Estrutura de camadas das Redes Neurais.
+<br> </br>
+<p align="justify">  Existem inúmeros modos de categorização de redes conforme os dados fluem dos "nós" de entrada para os "nós de saída". Abordamos, neste repositório, os algoritmos de backpropagation.  </p>
+
+<h4 align="justify"> BACKPROPAGATION </h4>
+
+<p align="justify">  Este algoritmo é muito utilizado em redes neurais devido o ajuste do peso das conexões entre os neurônios com o objetivo de minimizar o erro entre as saídas da rede e os valores desejados. O processo em duas etapas: propagação para frente (forward propagation) e retropropagação do erro (backward propagation). </p>
   
-<p align="justify"> No que diz respeito a sua aplicação, temos que as redes neurais são desenvolvidas para auxiliar pessoas e resolver problemas complexos reais. Ademais, elas podem aprender e modelar relações entre entradas e saídas de dados que são não-lineares e complexos; realizar generalizações e inferências; revelar relacionamentos, padrões e predições ocultas e modelar dados altamente voláteis (como dados de séries temporais financeiras) e variâncias necessárias para prever eventos raros (como detecção de fraudes).  </p>
+<p align="justify">  O primeiro processo considerada os dados de entrada alimentados na rede e os valores de saída cálculados a partir da ativação dos neurNa etapa de propagação para frente, os dados de entrada são alimentados na rede, e as saídas são calculadas através das ativações dos neurônios, por sua vez, o segundo processo, determina que o erro entre as saídas da rede e os valores desejados é propagado de volta para a rede, ademais, os pesos das conexões são atualizados de forma a se obter um erro mínimo, utilizando o gradiente que é calculado através da derivada parcial do erro em relações aos pesos - alô Regra da Cadeia; e são repetidos até que a rede forneça uma saída com um erro aceitável.  </p>
 
 <hr>
 
