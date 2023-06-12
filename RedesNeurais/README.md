@@ -12,6 +12,9 @@
 <p align="justify"><img src="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/assets/106678040/4bfe07bf-4ac7-4d40-9bee-f07274d90472" width="500" height="300" > </p>
 Figura 1. Estrutura de camadas das Redes Neurais.
 <br> </br>
+
+<p align="justify"> E o porque as redes neurais são tão admiradas e utilizas? Esse processamento de dados similar ao processamento de informações de um cérebro humano nos permitem realizar projetos de previsão e análise de dados seja predizendo seres temporais como as ações do mercado financeiro como também predizendo dados de saúde pública, ademais, as redes neurais também podem ter aplicações em sistemas de recomendação e também no desenvolvimento de IA's, quem não conhece o famoso Chat GPT? </p>
+
 <p align="justify">  Existem inúmeros modos de categorização de redes conforme os dados fluem dos "nós" de entrada para os "nós de saída". Abordamos, neste repositório, os algoritmos de backpropagation.  </p>
 
 <h4 align="justify"> BACKPROPAGATION </h4>
