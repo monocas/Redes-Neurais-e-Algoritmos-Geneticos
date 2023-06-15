@@ -7,7 +7,7 @@
 <h3 align="justify">  O QUE SÃO REDES NEURAIS? </h3>
 
 <p align="justify">  Redes neurais são algoritmos que se baseiam em um processamento de dados similar ao processamento de informações de um cérebro humano que ocorrem por meio de um conjunto extremamente complexo de células, os neurônios, responsáveis pela tomada de decisão do raciocínio e corpo humanos. Os neurônios são formados por dendritos – conjuntos de terminais de entrada, pelo corpo central, e pelos axônios – terminais de saídas. </p>
-<p align="justify">  A comunicação dos neurônios ocorrem por meia da sinapse – região onde dois neurônios entram em contato e transmitem impulsos nervosos. Estabelecido o funcionamento biológico, observa-se que o comportamento das redes neurais é similar ao de um neurônio visto que a estrutura computacional é baseada em um sistema três camdas, sendo um de input - valor de entrada; a camada escondida - neurônio soma os valores de entrada recebidos e incrementa um viés; e por fim, o output - valor de saída das operações. Na Figura 1, há a exemplificação estrutural de uma rede neural. </p>
+<p align="justify">  A comunicação dos neurônios ocorrem por meia da sinapse – região onde dois neurônios entram em contato e transmitem impulsos nervosos. Estabelecido o funcionamento biológico, observa-se que o comportamento das redes neurais é similar ao de um neurônio visto que a estrutura computacional é baseada em um sistema três camadas, sendo um de input - valor de entrada; a camada escondida - neurônio soma os valores de entrada recebidos e incrementa um viés; e por fim, o output - valor de saída das operações. Na Figura 1, há a exemplificação estrutural de uma rede neural. </p>
  
 <p align="justify"><img src="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/assets/106678040/4bfe07bf-4ac7-4d40-9bee-f07274d90472" width="500" height="300" > </p>
 Figura 1. Estrutura de camadas das Redes Neurais.
@@ -46,13 +46,23 @@ Figura 1. Estrutura de camadas das Redes Neurais.
 <p align="justify">
 :white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.03 </a> - construindo um grafo automaticamente.ipynb - Neste arquivo, abordamos a construção de grafos por meio de classes que geram automaticamente o grafo computacional. </p>
 
+<p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.04%20-%20computando%20gradientes%20locais.ipynb"> Experimento R.04 </a> - construindo um grafo automaticamente.ipynb -  Neste notebook nós vamos atualizar a classe `Valor` para que ela seja capaz de computar o gradiente local de cada vértice numérico do grafo computacional. Esse cálculo será feito &ldquo;de trás para frente&rdquo;, iniciando pelo vértice folha e retornando até os vértices raiz. O nome desse processo é `backpropagation` e é o coração do processo de treinar uma rede neural artificial.
+</p>
 
+<p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.05 </a> - construindo um grafo automaticamente.ipynb -  Neste arquivo, o objetivo é fazer com que a classe `Valor` seja capaz de realizar algumas operações necessárias para que seja usada na nossa rede neural artificial.
+</p>
 
+<p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.06 </a> - redes neurais artificais.ipynb - Neste arquivo, iremos abordar a construção de uma rede neural por partes, primeiramente criando um neurônio artificial, depois uma camada de neurônios e, por fim, uma rede neural multicamadas.
+. </p>
 
+<p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.07 </a> - treinando uma rede neural.ipynb - Neste arquivo, estamos no gran finale de redes neurais em que finalmente treinamos a nossa rede neural artificial tipo Multilayer Perceptron usando Python. </p>
 
-<h4 align="center"> 
-	🚧  Atualizando...Redes Neurais 🚀 Git em construção...  🚧
-</h4>
+<p align="justify">
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.08 </a> - Treinando uma rede neural usando pytorch.ipynb - Neste arquivo, temos um spin off  do nosso gran finale sobre redes neurais, isto é, aprendemos a treinar uma rede neural artificial tipo Multilayer Perceptron usando `pytorch`.</p>
 
 
 ## Arquivos .py
