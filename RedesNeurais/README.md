@@ -55,14 +55,14 @@ Figura 1. Estrutura de camadas das Redes Neurais.
 </p>
 
 <p align="justify">
-:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.06 </a> - redes neurais artificais.ipynb - Neste arquivo, iremos abordar a construção de uma rede neural por partes, primeiramente criando um neurônio artificial, depois uma camada de neurônios e, por fim, uma rede neural multicamadas.
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.06%20-%20redes%20neurais%20artificiais.ipynb"> Experimento R.06 </a> - redes neurais artificais.ipynb - Neste arquivo, iremos abordar a construção de uma rede neural por partes, primeiramente criando um neurônio artificial, depois uma camada de neurônios e, por fim, uma rede neural multicamadas.
 . </p>
 
 <p align="justify">
-:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.07 </a> - treinando uma rede neural.ipynb - Neste arquivo, estamos no gran finale de redes neurais em que finalmente treinamos a nossa rede neural artificial tipo Multilayer Perceptron usando Python. </p>
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.07%20-%20treinando%20uma%20rede%20neural.ipynb"> Experimento R.07 </a> - treinando uma rede neural.ipynb - Neste arquivo, estamos no gran finale de redes neurais em que finalmente treinamos a nossa rede neural artificial tipo Multilayer Perceptron usando Python. </p>
 
 <p align="justify">
-:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb"> Experimento R.08 </a> - Treinando uma rede neural usando pytorch.ipynb - Neste arquivo, temos um spin off  do nosso gran finale sobre redes neurais, isto é, aprendemos a treinar uma rede neural artificial tipo Multilayer Perceptron usando `pytorch`.</p>
+:white_check_mark: <a href="https://github.com/monocas/Redes-Neurais-e-Algoritmos-Geneticos/blob/main/RedesNeurais/experimento%20R.08%20-%20treinando%20uma%20rede%20neural%20com%20pytorch.ipynb"> Experimento R.08 </a> - Treinando uma rede neural usando pytorch.ipynb - Neste arquivo, temos um spin off  do nosso gran finale sobre redes neurais, isto é, aprendemos a treinar uma rede neural artificial tipo Multilayer Perceptron usando `pytorch`.</p>
 
 
 ## Arquivos .py
